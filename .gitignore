@@ -1,0 +1,29 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# OAuth credentials — never commit
+credentials/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# Media cache — can be large
+/data/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
