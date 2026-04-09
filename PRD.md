@@ -55,6 +55,13 @@ Travel memories are scattered across Google Photos, email confirmations, and men
   - Patterns in my travel style
   - An LLM-generated narrative summary
 
+### Activity Tracking (Future)
+- TODO: support outdoor activity data (hiking, running, cycling) from Garmin and Strava
+  - Garmin: GPX/FIT file export or Garmin Connect API
+  - Strava: Strava API (OAuth2, activity endpoints)
+  - Data to capture: route (GPS track), distance, elevation gain, duration, heart rate
+  - Join with trip timeline by date so a hike shows up alongside photos from that day
+
 ### Globe View (Next.js — Phase 2)
 - As a user, I can see a spinnable 3D globe with a heatmap showing every location I've visited
 - TODO: define click behavior on a hotspot (open trip timeline? photo grid for that location?)
